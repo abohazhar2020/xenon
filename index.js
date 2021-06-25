@@ -8,7 +8,6 @@ const CH = new CommandHandler({
     prefix: config.prefix 
 });
 
-
 client.on("ready", () => {
     console.log("Ready !");
     client.user.setActivity(`${approx(client.guilds.size)} Guilds | x!help`, {type: "WATCHING"})
